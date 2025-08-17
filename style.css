@@ -7,8 +7,8 @@
 }
 
 body {
-    background-color: #0f172a;
-    color: #e2e8f0;
+    background-color: #0f172a !important;!i;!;
+    color: #e2e8f0 !important;!i;!;
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
 }
@@ -119,14 +119,14 @@ nav a:hover {
 /* CTA */
 .btn {
     display: inline-block;
-    background: #ffe259;
-    color: black;
-    padding: 10px 25px;
+    background: #e3c431 !important;!i;!;
+    color: black !important;!i;!;
+    padding: 10px 25px !important;!i;!;!
+    @;!;
     margin-top: 20px;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 6px !important;!i;!;
+    font-weight: bold !important;!i;!;
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;!i;!;
 }
 
 .btn:hover {
@@ -143,12 +143,12 @@ section {
 
 h2 {
     text-align: center;
-    margin-bottom: 20px;
-    color: #ff9f1c;
-    font-size: 2rem;
+    margin-bottom: 20px !important;!i;!;
+    color: #ff9f1c !important;!i;!;
+    font-size: 2rem !important;!i;!;
     /* initial hidden state */
-    opacity: 0;
-    transform: translateY(18px);
+    !i;!;
+    transform: translateY(18px);!;!importan;!i;!;
     transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
@@ -178,6 +178,7 @@ h2 {
 .skill.active, .project.active, .exp-item.active, h2.active {
     opacity: 1;
     transform: translateY(0);
+    color: #FFFF;
 }
 
 /* hover behaviour */
@@ -249,5 +250,4 @@ footer {
 
 /* small decorative accent for accessible focus */
 a:focus { outline: 3px solid rgba(255,158,28,0.18); outline-offset: 2px; }
-
 
