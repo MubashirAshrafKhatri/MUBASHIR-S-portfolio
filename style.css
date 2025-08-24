@@ -18,6 +18,9 @@ body {
 a{
     text-decoration:none !important;
 }
+P{
+    margin:0;
+}
 /* Header */
 header {
     background: linear-gradient(90deg, #7b2ff7, #f107a3);
@@ -251,6 +254,7 @@ footer {
 
 /* small decorative accent for accessible focus */
 a:focus { outline: 3px solid rgba(255,158,28,0.18); outline-offset: 2px; }
+
 
 
 
