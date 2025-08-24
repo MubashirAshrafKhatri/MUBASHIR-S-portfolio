@@ -16,7 +16,7 @@ body {
     color: white !important;
 }
 a{
-    text-decoration:none;
+    text-decoration:none !important;
 }
 /* Header */
 header {
@@ -251,6 +251,7 @@ footer {
 
 /* small decorative accent for accessible focus */
 a:focus { outline: 3px solid rgba(255,158,28,0.18); outline-offset: 2px; }
+
 
 
 
